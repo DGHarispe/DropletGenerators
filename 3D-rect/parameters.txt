@@ -1,0 +1,51 @@
+#PARAMETERS
+NCells: 64
+
+maxRlevel: 8
+
+q1: 5.5556e-11
+
+q2: 1.1111e-9
+
+SIGMA: 5.0e-3
+
+cwidth: 0.0001
+
+cheight: 0.0001
+
+#percentage of u admited as max error
+uemax: 0.02
+
+ownL0: 0.01
+
+size_domm: 0.0008
+
+#variables with 1 is dispersed phase
+rho1_val: 1020.0
+
+#variables with 2 is continuous phase
+rho2_val: 1000.0
+
+mu1_val: 0.00671
+
+mu2_val: 0.00195
+
+oxc: -0.0003
+
+oyc: -0.0004
+
+ozc: -0.00055
+
+#initial DT
+DTi: 0.00001
+
+#new DT after startSteps
+nMaxDT: 0.00004
+
+startSteps: 100
+
+tmax: 5.0
+
+csTol: 1e-2
+
+fTol: 1e-3

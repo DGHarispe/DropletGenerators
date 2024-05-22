@@ -1,0 +1,36 @@
+#PARAMETERS
+NCells: 64
+
+maxlevel: 9
+
+#flow rates in m³/s
+q_in: 1.41372e-10
+
+q_out: 1.09956e-09
+
+SIGMA: 20e-3
+
+radius_in: 1e-5
+
+radius_out: 10e-5
+
+#percentage of u admited as max error
+uemax: 0.01
+
+size_domm: 0.0013
+
+#variables with 1 is dispersed phase (in)
+rho_in: 997.0
+
+#variables with 2 is continuous phase (out)
+rho_out: 800.0
+
+mu_in: 0.001
+
+mu_out: 0.03
+
+maxDT: 0.00004
+
+tmax: 5.0
+
+fTol: 1e-5
