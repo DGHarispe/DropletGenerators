@@ -3,8 +3,8 @@
 ## Overview
 This repository contains Basilisk (https://basilisk.fr/) code to simulate droplet generation in microfluidic devices with immiscible phases. Two canonical geometries are supported:
 
-- **Coaxial (flow-focusing) devices** — modeled in 2D assuming axial symmetry.
-- **T-junction devices** — modeled in full 3D.
+- **Coaxial (flow-focusing) devices** (modeled in 2D assuming axial symmetry).
+- **T-junction devices** (modeled in full 3D).
 
 The code targets quantitative analysis of interfacial dynamics, droplet breakup, and regime transitions under controlled physical and geometrical parameters.
 
@@ -28,18 +28,13 @@ The code targets quantitative analysis of interfacial dynamics, droplet breakup,
 - **Solid definition (if exists)**: Embedded Boundary Method (also signed distance function when using STLs)
 
 **Related Links**:
+
 https://basilisk.fr/sandbox/Antoonvh/The_Tree-Grid_Structure_in_Basilisk
-
 https://basilisk.fr/src/navier-stokes/centered.h
-
 https://basilisk.fr/src/two-phase.h
-
 https://basilisk.fr/src/vof.h
-
 https://basilisk.fr/src/tension.h
-
 https://basilisk.fr/src/embed.h
-
 https://basilisk.fr/src/distance.h
 
 ## Physical Model
@@ -141,12 +136,14 @@ q2: Flow rate outer phase.
 SIGMA: Surface tension.
 radius_in: radius of inner capillary for coaxial droplet generator.
 radius_out: radius of outer capillary for coaxial droplet generator.
+cwidth: Capillary channel width for rectangular capillaries of T-Junction.
+cheight: Capillary channel height for rectangular capillaries of T-Junction.
 uemax: Max discretisation error for the velocity field.
 size_domm: Side length of the (square) domain.
-rho1_val: Density of the inner phase.
-rho2_val: Density of the outer phase.
-mu1_val: Viscosity of the inner phase.
-mu2_val: Viscosity of the outer phase.
+rho1_val / rho_in: Density of the inner phase.
+rho2_val / rho_out: Density of the outer phase.
+mu1_val / mu_in: Viscosity of the inner phase.
+mu2_val / mu_out: Viscosity of the outer phase.
 oxc: Origin location on X. 
 oyc: Origin location on Y.
 ozc: Origin location on Z.
