@@ -195,12 +195,13 @@ https://basilisk.fr/src/COPYING
 ## Validation
 The code was validated and used to perform the studies available at:
 
-Harispe, D. G., & Kler, P. A. (2024). Accurate numerical prototypes of microfluidic droplet generators with open source tools. Computers &amp; Fluids, 281, 106366. https://doi.org/10.1016/j.compfluid.2024.106366
+> Harispe, D. G., & Kler, P. A. (2024). Accurate numerical prototypes of microfluidic droplet generators with open source tools. Computers &amp; Fluids, 281, 106366. https://doi.org/10.1016/j.compfluid.2024.106366
 
 ## Citation
 
 If you use this code in academic work, please cite our work:
 
+```bibtex
 @article{Harispe2024,
   title = {Accurate numerical prototypes of microfluidic droplet generators with open source tools},
   volume = {281},
@@ -214,4 +215,4 @@ If you use this code in academic work, please cite our work:
   month = aug,
   pages = {106366}
 }
-
+```
