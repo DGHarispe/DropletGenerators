@@ -12,8 +12,7 @@ The code targets quantitative analysis of interfacial dynamics, droplet breakup,
 
 - Simulation of immiscible two-phase flows
 - Support for **2D axisymmetric** and **3D geometries**
-- Flexible geometry definition:
-  - Constructive solid geometry (CSG): union, intersection, difference
+- Geometry definition:
   - Import from **STL files** (on T-junction capillaries)
 - Parameter-driven execution via external "configuration" file
 
@@ -25,7 +24,7 @@ The code targets quantitative analysis of interfacial dynamics, droplet breakup,
 - **Interface capturing**: Volume of Fluid (VOF).
 - **Curvature / surface tension model**: Continuum Surface Force (CSF) using Height-Functions.  
 - **Time integration**: Explicit/semi-explicit scheme with adaptive timestep.
-- **Solid definition (if exists)**: Embedded Boundary Method (also signed distance function when using STLs)
+- **Solid definition (if exists)**: Embedded Boundary Method (and signed distance function when using STLs)
 
 **Related Links**:
 - https://basilisk.fr/sandbox/Antoonvh/The_Tree-Grid_Structure_in_Basilisk
@@ -57,13 +56,8 @@ The simulations consider:
 As specified before, two types of capillaries are available, rectangular and cylindrical capillaries.
 The solids are "constructed" by using two different approeaches:
 
-#### 1. STL-based geometries
-
-- Import pre-defined capillary geometries from STL files
-
-#### 2. Constructive Geometry
-
-- Build domains using CSG boolean operations (Union, Intersection, Difference)
+#### STL-based geometries
+Import pre-defined capillary geometries from STL files
 
 ## Installation
 
@@ -155,16 +149,9 @@ fTol: Max discretization error for the volume fraction field representing the ph
 The max discretisation errors are used to control the refinement in different regions of the domain, acording to different fields.
 There are other parameters defined but currently are not being used on the example codes.
 
-## Geometry Examples
-
-### STL usage
-
+## STL usage
 1. Create or obtain STL geometry
 2. Place next to seToTJ.c or source.c files.
-
-### Constructive Geometry
-
-Currently, the two mentioned capillaries geometries are defined, if a new geometry is required, it should be defined by using CSG.
 
 ## Simulation Outputs
 
