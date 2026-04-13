@@ -1,7 +1,7 @@
 # Microfluidic Droplet Generators on Basilisk
 
 ## Overview
-This repository contains Basilisk (https://basilisk.fr/) code to simulate droplet generation in microfluidic devices with immiscible phases. Two canonical geometries are supported:
+This repository contains code to simulate droplet generation in microfluidic devices with immiscible phases. It uses Basilisk (https://basilisk.fr/) to solve the partial differential equations on adaptive Cartesian meshes. Two canonical geometries are supported:
 
 - **Coaxial (flow-focusing) devices** (modeled in 2D assuming axial symmetry).
 - **T-junction devices** (modeled in full 3D). Rectangular or cylindrical capillaries
