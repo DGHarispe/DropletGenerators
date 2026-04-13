@@ -28,14 +28,13 @@ The code targets quantitative analysis of interfacial dynamics, droplet breakup,
 - **Solid definition (if exists)**: Embedded Boundary Method (also signed distance function when using STLs)
 
 **Related Links**:
-
-https://basilisk.fr/sandbox/Antoonvh/The_Tree-Grid_Structure_in_Basilisk
-https://basilisk.fr/src/navier-stokes/centered.h
-https://basilisk.fr/src/two-phase.h
-https://basilisk.fr/src/vof.h
-https://basilisk.fr/src/tension.h
-https://basilisk.fr/src/embed.h
-https://basilisk.fr/src/distance.h
+- https://basilisk.fr/sandbox/Antoonvh/The_Tree-Grid_Structure_in_Basilisk
+- https://basilisk.fr/src/navier-stokes/centered.h
+- https://basilisk.fr/src/two-phase.h
+- https://basilisk.fr/src/vof.h
+- https://basilisk.fr/src/tension.h
+- https://basilisk.fr/src/embed.h
+- https://basilisk.fr/src/distance.h
 
 ## Physical Model
 
