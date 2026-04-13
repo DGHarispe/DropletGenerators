@@ -4,7 +4,7 @@
 This repository contains Basilisk (https://basilisk.fr/) code to simulate droplet generation in microfluidic devices with immiscible phases. Two canonical geometries are supported:
 
 - **Coaxial (flow-focusing) devices** (modeled in 2D assuming axial symmetry).
-- **T-junction devices** (modeled in full 3D).
+- **T-junction devices** (modeled in full 3D). Rectangular or cylindrical capillaries
 
 The code targets quantitative analysis of interfacial dynamics, droplet breakup, and regime transitions under controlled physical and geometrical parameters.
 
