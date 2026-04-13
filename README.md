@@ -216,7 +216,7 @@ Harispe, D. G., & Kler, P. A. (2024). Accurate numerical prototypes of microflui
 
 ## Citation
 
-If you use this code in academic work, please cite this work:
+If you use this code in academic work, please cite our work:
 
 @article{Harispe2024,
   title = {Accurate numerical prototypes of microfluidic droplet generators with open source tools},
