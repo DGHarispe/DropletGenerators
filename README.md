@@ -54,10 +54,10 @@ The simulations consider:
 ### T-Junction Devices (3D)
 
 As specified before, two types of capillaries are available, rectangular and cylindrical capillaries.
-The solids are "constructed" by using two different approeaches:
+The solids are "constructed" by using STL files:
 
 #### STL-based geometries
-Import pre-defined capillary geometries from STL files
+Import pre-defined capillary geometries from STL files.
 
 ## Installation
 
