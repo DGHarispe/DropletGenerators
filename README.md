@@ -98,7 +98,7 @@ https://basilisk.fr/Tutorial#minimal-program
 ## Usage
 
 1. Create a folder named output next to source or seToTJ once compiled. That folder will be used to place the outputs of the simulations.
-2. Execute source/seToTJ.
+2. Execute source or seToTJ.
 
 ## Parameters (parameters.txt)
 
